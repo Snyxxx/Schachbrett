@@ -13,8 +13,8 @@ public class Board extends GraphicalObject {
 
     @Override
     public void draw(DrawTool drawTool) {
-        for (int i = 0; i < 8; i++) {
-            for (int j = 0; j < 8; j++) {
+        for (int i = 0; i < 12; i++) {
+            for (int j = 0; j < 12; j++) {
                 if ((i + j%2) % 2 == 0)
                     drawTool.setCurrentColor(Color.WHITE);
                 else {
